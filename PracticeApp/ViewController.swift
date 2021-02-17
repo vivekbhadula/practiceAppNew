@@ -12,8 +12,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var changeImage: UIImageView!
     @IBOutlet weak var mainBG: UIImageView!
     
+    
     @IBAction func keyPressed(_ sender: UIButton) {
+        changeImage.alpha = 1
         changeImage.image = [#imageLiteral(resourceName: "practiceApp1"), #imageLiteral(resourceName: "practiceApp2")][Int.random(in: 0...1)]
+    }
+    
+    @IBAction func backButton(_ sender: UIButton) {
+        changeImage.alpha = 0
     }
     
     override func viewDidLoad() {
