@@ -9,9 +9,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var changeImage: UIImageView!
+    @IBOutlet weak var mainBG: UIImageView!
+    
+    @IBAction func keyPressed(_ sender: UIButton) {
+        changeImage.image = [#imageLiteral(resourceName: "practiceApp1"), #imageLiteral(resourceName: "practiceApp2")][Int.random(in: 0...1)]
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        mainBG.image = #imageLiteral(resourceName: "practiceApp")
     }
 
 
