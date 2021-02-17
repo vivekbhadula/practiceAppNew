@@ -16,9 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="practiceApp" translatesAutoresizingMaskIntoConstraints="NO" id="riu-uL-Nto">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="practiceApp" translatesAutoresizingMaskIntoConstraints="NO" id="riu-uL-Nto">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Vh-RV-Txm">
                                 <rect key="frame" x="0.0" y="268" width="414" height="628"/>
@@ -47,6 +46,12 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="riu-uL-Nto" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="2hs-jB-vTV"/>
+                            <constraint firstAttribute="bottom" secondItem="riu-uL-Nto" secondAttribute="bottom" id="VDO-7u-EvZ"/>
+                            <constraint firstItem="riu-uL-Nto" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="aMR-ag-R3O"/>
+                            <constraint firstItem="riu-uL-Nto" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="rDZ-13-edU"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="changeImage" destination="0Vh-RV-Txm" id="BZb-Kf-sIu"/>
