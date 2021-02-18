@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func backButton(_ sender: UIButton) {
-        changeImage.alpha = 0 //fade to 0
+        changeImage.alpha = 0 //fade to 0. Added comment to check if commit shows on github.
     }
     
     override func viewDidLoad() {
