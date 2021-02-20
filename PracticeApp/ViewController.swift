@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var changeImage: UIImageView!
     @IBOutlet weak var mainBG: UIImageView!
     
-    // Demo
+    // Demo 1
     
     @IBAction func keyPressed(_ sender: UIButton) {
         changeImage.alpha = 1
