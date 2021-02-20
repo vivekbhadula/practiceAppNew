@@ -19,12 +19,11 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="practiceApp" translatesAutoresizingMaskIntoConstraints="NO" id="riu-uL-Nto">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Vh-RV-Txm">
-                                <rect key="frame" x="0.0" y="268" width="414" height="628"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0Vh-RV-Txm">
+                                <rect key="frame" x="0.0" y="144" width="414" height="752"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q1Z-62-zy5">
-                                <rect key="frame" x="162" y="746" width="91" height="43"/>
+                                <rect key="frame" x="161" y="728" width="91" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="26"/>
@@ -34,7 +33,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E5X-2E-1uf">
-                                <rect key="frame" x="141" y="652" width="133" height="55"/>
+                                <rect key="frame" x="140" y="636" width="133" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
@@ -48,8 +47,12 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="riu-uL-Nto" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="2hs-jB-vTV"/>
+                            <constraint firstItem="0Vh-RV-Txm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="FdO-HH-9ts"/>
                             <constraint firstAttribute="bottom" secondItem="riu-uL-Nto" secondAttribute="bottom" id="VDO-7u-EvZ"/>
+                            <constraint firstItem="0Vh-RV-Txm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="WtF-xx-ssw"/>
                             <constraint firstItem="riu-uL-Nto" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="aMR-ag-R3O"/>
+                            <constraint firstItem="0Vh-RV-Txm" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="hGf-Vc-oXk"/>
+                            <constraint firstAttribute="bottom" secondItem="0Vh-RV-Txm" secondAttribute="bottom" id="kH5-uR-nAW"/>
                             <constraint firstItem="riu-uL-Nto" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="rDZ-13-edU"/>
                         </constraints>
                     </view>
